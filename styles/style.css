@@ -6,3 +6,161 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito:wght@200&display=swap');
+
+* {
+    margin: 0;
+    font-family: Lato;
+    font-size: 22px;
+}
+
+.busqueda {
+    position:fixed;
+    background-color: #FFF;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle
+
+}
+
+.contenido3 p {
+    padding: 30px;
+}
+
+.spotify {
+    padding-left: 10px;
+    width: 200px;
+}
+
+.primeraimagen {
+    width: 1700px;
+    background-size: cover;
+}
+
+.seccion1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto1 {
+    color: white;
+    width: px;
+    font-size: 100px;
+    position:absolute;
+    text-align: center;
+    top: 45%;
+    
+
+}
+.texto2 {
+    color: white;
+    width: 700px;
+    font-size: 30px;
+    position:absolute;
+    text-align: center;
+    top: 70%;
+    
+}
+
+.navegacion {
+    
+    margin-top:  10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.25em;
+}
+
+li {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.imagencentral {
+    width: 110px;
+    height: 100px;
+}
+
+.imagencentral > p {
+    width: 50px ;
+}
+
+.segundotitulo {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 20px 20px 5px 20px;
+    border-bottom: 5px solid #00B172;
+    width: fit-content;
+    margin: 40px auto; 
+}
+
+.segundobox h3 {
+    font-size: 3em;
+    font-size:1.5em;
+    font-weight:bolder;
+    color: #00B172
+}
+.segundobox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 80px;
+    
+}
+.segundobox article {
+    width: 400px;
+}
+
+
+.tercertitulo {
+    margin-bottom: 25px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #fff;
+    width: fit-content;
+    font-size: 40px;
+}
+
+.seccion3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    background-color: #00B172;
+    color: #FFF;
+}
+.logoblanco {
+    height: 90px;
+    display: flex;
+    position:absolute;
+    padding-top: 250px;
+    padding-left: 850px;
+}
+    
+.captura {
+    width: 400px;
+    height: 600px;
+}
+
+.contenido3 {
+    width: 600px;
+}
+@media only screen and (max-width: 1880px) {
+    .logoblanco {
+        display: none;   
+    }
+}
